@@ -23,6 +23,11 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="bs\_06_model.py" />
+    <Compile Include="bs\_06_ctrl.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="bs\_06_view.py" />
     <Compile Include="bs\_01_bs4_requests.py" />
     <Compile Include="bs\_02_bs4_re.py" />
     <Compile Include="bs\_03_bs4_bugs.py" />
