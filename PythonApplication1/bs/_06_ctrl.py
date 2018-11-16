@@ -7,7 +7,8 @@ def main():
     Dialog = QtWidgets.QDialog()
     ui = Ui_Dialog()
     ui.setupUi(Dialog)
-    Dialog.show()
+    print(ui.lineEdit.text())
+    Dialog.show()   
     model = Model()
     url = "https://music.bugs.co.kr/chart/track/realtime/total?chartdate=20181114"
     model.excute(url)
